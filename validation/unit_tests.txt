@@ -20,6 +20,6 @@ test_no_key_is_returned_in_config (test_server.LocalServerTests.test_no_key_is_r
 test_untrusted_hostname_rejected (test_server.LocalServerTests.test_untrusted_hostname_rejected) ... ok
 
 ----------------------------------------------------------------------
-Ran 20 tests in 4.002s
+Ran 20 tests in 4.023s
 
 OK

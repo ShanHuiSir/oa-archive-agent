@@ -6,7 +6,7 @@ from oa.core import *
 
 class ArchiveTests(unittest.TestCase):
     def setUp(self):
-        self.tmp=tempfile.TemporaryDirectory();self.base=Path(self.tmp.name);self.c=DEFAULT.copy();self.source=self.base/'来源.txt';self.source.write_text('行政部 通知 2026-04-20',encoding='utf-8')
+        self.tmp=tempfile.TemporaryDirectory();self.base=Path(self.tmp.name).resolve();self.c=DEFAULT.copy();self.source=self.base/'来源.txt';self.source.write_text('行政部 通知 2026-04-20',encoding='utf-8')
     def tearDown(self):self.tmp.cleanup()
     def item(self,title='测试通知'):
         return Item(str(self.source),sha256=digest(self.source),department='行政部',type='通知',date='2026-04-20',title=title,status='可归档')
