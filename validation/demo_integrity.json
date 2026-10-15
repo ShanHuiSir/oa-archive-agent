@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "input_count": 6,
+  "archived_count": 6,
+  "ledger_count": 6,
+  "filtered_count": 1,
+  "all_copy_hashes_match": true,
+  "checks": [
+    {
+      "file": "06_日期缺失.txt",
+      "sha256": "5a874c2dee2860847cd5c6c2539636cfb04c0102191c674c7f5dda5ed0b5656c",
+      "copy_equals_original": true
+    },
+    {
+      "file": "05_企业自定义模板.docx",
+      "sha256": "c3d84114b55dca3cf7565899210d7d169e7f65e1e74b6abb9d42f51aacd6d845",
+      "copy_equals_original": true
+    },
+    {
+      "file": "04_扫描会议纪要.png",
+      "sha256": "dd4c4b4b9d12b8c5f09794ec5396a1bb919890b62a3514c9df307481e14c6c24",
+      "copy_equals_original": true
+    },
+    {
+      "file": "03_设备合同.pdf",
+      "sha256": "41bb01119417818ce2068868ee1c86e91026e1e1f120d37a5e583a1e207807bb",
+      "copy_equals_original": true
+    },
+    {
+      "file": "02_预算执行.xlsx",
+      "sha256": "7b4a9ab3ef8044cc546d99c69f23f421f10a7d254e8e8d0b17677ed3af823526",
+      "copy_equals_original": true
+    },
+    {
+      "file": "01_值班通知.docx",
+      "sha256": "79ec20785887f61e0966d4732ed07110e30218892b59fcb124c4d4cf8e599271",
+      "copy_equals_original": true
+    }
+  ]
+}

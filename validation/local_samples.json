@@ -1,0 +1,171 @@
+{
+  "version": "1.0.0",
+  "time": "2026-10-15T11:19:51.901916+08:00",
+  "input_count": 6,
+  "total_seconds": 9.526,
+  "mode": "local",
+  "model_requested": "local-rules-v1",
+  "records": [
+    {
+      "source": "01_值班通知.docx",
+      "sha256": "79ec20785887f61e0966d4732ed07110e30218892b59fcb124c4d4cf8e599271",
+      "department": "行政部",
+      "type": "通知",
+      "date": "2026-04-20",
+      "title": "节假日值班安排通知",
+      "confidence": 0,
+      "evidence": {
+        "department": "行政部",
+        "type": "通知",
+        "date": "2026-04-20"
+      },
+      "extraction": "原生文本",
+      "status": "已归档",
+      "notes": "本地规则识别，未使用模型响应",
+      "destination": "归档库\\行政部\\通知\\2026-04\\行政部_通知_2026-04-20_节假日值班安排通知.docx",
+      "model": "local-rules-v1",
+      "request_id": "",
+      "elapsed_s": 0.514,
+      "usage": {},
+      "field_checks": {
+        "department": true,
+        "type": true,
+        "date": true
+      }
+    },
+    {
+      "source": "02_预算执行.xlsx",
+      "sha256": "7b4a9ab3ef8044cc546d99c69f23f421f10a7d254e8e8d0b17677ed3af823526",
+      "department": "财务部",
+      "type": "报表",
+      "date": "2026-03-31",
+      "title": "季度预算执行报表",
+      "confidence": 0,
+      "evidence": {
+        "department": "财务部",
+        "type": "报表",
+        "date": "2026-03-31"
+      },
+      "extraction": "原生文本",
+      "status": "已归档",
+      "notes": "本地规则识别，未使用模型响应",
+      "destination": "归档库\\财务部\\报表\\2026-03\\财务部_报表_2026-03-31_季度预算执行报表.xlsx",
+      "model": "local-rules-v1",
+      "request_id": "",
+      "elapsed_s": 1.316,
+      "usage": {},
+      "field_checks": {
+        "department": true,
+        "type": true,
+        "date": true
+      }
+    },
+    {
+      "source": "03_设备合同.pdf",
+      "sha256": "41bb01119417818ce2068868ee1c86e91026e1e1f120d37a5e583a1e207807bb",
+      "department": "法务部",
+      "type": "合同",
+      "date": "2026-02-18",
+      "title": "办公设备采购合同",
+      "confidence": 0,
+      "evidence": {
+        "department": "法务部",
+        "type": "合同",
+        "date": "2026-02-18"
+      },
+      "extraction": "PDF 原生文本",
+      "status": "已归档",
+      "notes": "本地规则识别，未使用模型响应",
+      "destination": "归档库\\法务部\\合同\\2026-02\\法务部_合同_2026-02-18_办公设备采购合同.pdf",
+      "model": "local-rules-v1",
+      "request_id": "",
+      "elapsed_s": 0.514,
+      "usage": {},
+      "field_checks": {
+        "department": true,
+        "type": true,
+        "date": true
+      }
+    },
+    {
+      "source": "04_扫描会议纪要.png",
+      "sha256": "dd4c4b4b9d12b8c5f09794ec5396a1bb919890b62a3514c9df307481e14c6c24",
+      "department": "研发部",
+      "type": "会议纪要",
+      "date": "2026-03-12",
+      "title": "研发部项目推进会议纪要",
+      "confidence": 0,
+      "evidence": {
+        "department": "研发部",
+        "type": "会议纪要",
+        "date": "2026-03-12"
+      },
+      "extraction": "本地 OCR",
+      "status": "已归档",
+      "notes": "本地规则识别，未使用模型响应",
+      "destination": "归档库\\研发部\\会议纪要\\2026-03\\研发部_会议纪要_2026-03-12_研发部项目推进会议纪要.png",
+      "model": "local-rules-v1",
+      "request_id": "",
+      "elapsed_s": 8.781,
+      "usage": {},
+      "field_checks": {
+        "department": true,
+        "type": true,
+        "date": true
+      }
+    },
+    {
+      "source": "05_企业自定义模板.docx",
+      "sha256": "c3d84114b55dca3cf7565899210d7d169e7f65e1e74b6abb9d42f51aacd6d845",
+      "department": "生产部",
+      "type": "报告",
+      "date": "2026-04-08",
+      "title": "安全检查报告",
+      "confidence": 0,
+      "evidence": {
+        "department": "生产部",
+        "type": "报告",
+        "date": "2026-04-08"
+      },
+      "extraction": "原生文本",
+      "status": "已归档",
+      "notes": "本地规则识别，未使用模型响应",
+      "destination": "归档库\\生产部\\报告\\2026-04\\生产部_报告_2026-04-08_安全检查报告.docx",
+      "model": "local-rules-v1",
+      "request_id": "",
+      "elapsed_s": 0.036,
+      "usage": {},
+      "field_checks": {
+        "department": true,
+        "type": true,
+        "date": true
+      }
+    },
+    {
+      "source": "06_日期缺失.txt",
+      "sha256": "5a874c2dee2860847cd5c6c2539636cfb04c0102191c674c7f5dda5ed0b5656c",
+      "department": "销售部",
+      "type": "报告",
+      "date": "",
+      "title": "销售部工作总结报告",
+      "confidence": 0,
+      "evidence": {
+        "department": "销售部",
+        "type": "报告"
+      },
+      "extraction": "原生文本",
+      "status": "待复核",
+      "notes": "本地规则识别，未使用模型响应；生成日期缺失或冲突，请人工确认",
+      "destination": "",
+      "model": "local-rules-v1",
+      "request_id": "",
+      "elapsed_s": 0.003,
+      "usage": {},
+      "field_checks": {
+        "department": true,
+        "type": true,
+        "date": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "oa-archive-agent-demo-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Optional tools for recording the real local application",
+  "devDependencies": { "playwright": "1.62.1" },
+  "scripts": { "record": "node scripts/record_demo.cjs", "install-video": "playwright install ffmpeg" }
+}

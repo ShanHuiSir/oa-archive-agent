@@ -1,0 +1,11 @@
+.private/
+build/
+dist/
+delivery/
+__pycache__/
+*.pyc
+.venv/
+config.local.json
+output/
+*.spec
+node_modules/

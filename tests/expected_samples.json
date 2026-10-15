@@ -1,0 +1,38 @@
+[
+  {
+    "file": "01_值班通知.docx",
+    "department": "行政部",
+    "type": "通知",
+    "date": "2026-04-20"
+  },
+  {
+    "file": "02_预算执行.xlsx",
+    "department": "财务部",
+    "type": "报表",
+    "date": "2026-03-31"
+  },
+  {
+    "file": "03_设备合同.pdf",
+    "department": "法务部",
+    "type": "合同",
+    "date": "2026-02-18"
+  },
+  {
+    "file": "04_扫描会议纪要.png",
+    "department": "研发部",
+    "type": "会议纪要",
+    "date": "2026-03-12"
+  },
+  {
+    "file": "05_企业自定义模板.docx",
+    "department": "生产部",
+    "type": "报告",
+    "date": "2026-04-08"
+  },
+  {
+    "file": "06_日期缺失.txt",
+    "department": "销售部",
+    "type": "报告",
+    "date": ""
+  }
+]

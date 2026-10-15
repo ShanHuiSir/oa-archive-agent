@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "executable": "OAArchive.exe",
+  "python_installed_required": false,
+  "input_count": 6,
+  "ready_before_review": 5,
+  "review_before_archive": 1,
+  "ocr_worked": true,
+  "archived": 6,
+  "excel_bytes": 6685,
+  "seconds": 11.091,
+  "api_key_present": false
+}

@@ -1,0 +1,31 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1440
+PlayResY: 1220
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Microsoft YaHei,26,&H00FFFFFF,&H00FFFFFF,&H00362F11,&H00362F11,0,0,0,0,100,100,0,0,1,1,0,2,30,30,20,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.10,0:00:06.74,Default,,0,0,0,,办公文件一多，通知、合同、表格，还有扫描件，很容易混在一起。
+Dialogue: 0,0:00:06.75,0:00:10.70,Default,,0,0,0,,这里是归序，一个企业文件归档工作台。
+Dialogue: 0,0:00:10.71,0:00:16.75,Default,,0,0,0,,接下来用明确标注的模拟资料，实际走一遍，从导入到导出。
+Dialogue: 0,0:00:18.02,0:00:19.89,Default,,0,0,0,,先看企业规则。
+Dialogue: 0,0:00:19.90,0:00:27.54,Default,,0,0,0,,这里把归口单位解释为部门，制发日期解释为生成日期，企业自己的模板也能使用。
+Dialogue: 0,0:00:27.55,0:00:32.25,Default,,0,0,0,,回到工作台，填入模拟资料文件夹，再点击导入。
+Dialogue: 0,0:00:32.26,0:00:37.81,Default,,0,0,0,,六份文件都在这里，Word、Excel、PDF和图片都有。
+Dialogue: 0,0:00:39.06,0:00:41.34,Default,,0,0,0,,点击本地智能识别。
+Dialogue: 0,0:00:41.35,0:00:50.44,Default,,0,0,0,,程序先提取正文，扫描件通过本地文字识别处理，再按部门、类型和日期规则生成候选。
+Dialogue: 0,0:00:50.45,0:00:53.60,Default,,0,0,0,,这里清楚标注了本地规则来源。
+Dialogue: 0,0:00:53.61,0:01:00.89,Default,,0,0,0,,旁边的模型增强入口会直接请求配置的模型服务，两种处理来源分别记录。
+Dialogue: 0,0:01:00.90,0:01:04.10,Default,,0,0,0,,这次演示使用本地规则模式。
+Dialogue: 0,0:01:05.36,0:01:08.09,Default,,0,0,0,,识别后，先别急着归档。
+Dialogue: 0,0:01:08.10,0:01:15.61,Default,,0,0,0,,点开扫描会议纪要，能看到提取的文字、字段依据，还有明确标注的处理来源。
+Dialogue: 0,0:01:15.62,0:01:20.43,Default,,0,0,0,,再看这份没有日期的报告，程序没有把今天填进去。
+Dialogue: 0,0:01:20.44,0:01:26.82,Default,,0,0,0,,我按模拟资料负责人提供的信息，补录四月九日，并保存人工核对。
+Dialogue: 0,0:01:26.83,0:01:32.98,Default,,0,0,0,,确认后归档，原件保留，副本按部门、类型和年月进入目录。
+Dialogue: 0,0:01:34.25,0:01:40.70,Default,,0,0,0,,归档后打开台账，每份文件的部门、类型、日期和路径都能查到。
+Dialogue: 0,0:01:40.71,0:01:46.75,Default,,0,0,0,,输入法务部，只看这一类资料，导出的表格也只保留当前结果。
+Dialogue: 0,0:01:46.76,0:01:51.26,Default,,0,0,0,,清空搜索，再导出全量台账和完整归档包。
+Dialogue: 0,0:01:51.27,0:01:58.89,Default,,0,0,0,,这些下载文件，都是刚才的实际操作生成的，后面查文件、核对去向，就有依据了。

@@ -1,0 +1,139 @@
+[
+  {
+    "source": "01_值班通知.docx",
+    "sha256": "79ec20785887f61e0966d4732ed07110e30218892b59fcb124c4d4cf8e599271",
+    "department": "行政部",
+    "type": "通知",
+    "date": "2026-04-20",
+    "title": "节假日值班安排通知",
+    "confidence": 0,
+    "evidence": {
+      "department": "行政部",
+      "type": "通知",
+      "date": "2026-04-20"
+    },
+    "text": "节假日值班安排通知\n模拟业务数据 仅用于软件功能演示\n发文部门：行政部\n签发日期：2026-04-20\n为做好假期服务工作，综合服务岗按排班表值班。联系人及人员均为虚构。\n文件类型：通知\n",
+    "extraction": "原生文本",
+    "status": "可归档",
+    "notes": "本地规则识别，未使用模型响应",
+    "destination": "",
+    "model": "local-rules-v1",
+    "request_id": "",
+    "elapsed_s": 0.476,
+    "usage": {}
+  },
+  {
+    "source": "02_预算执行.xlsx",
+    "sha256": "7b4a9ab3ef8044cc546d99c69f23f421f10a7d254e8e8d0b17677ed3af823526",
+    "department": "财务部",
+    "type": "报表",
+    "date": "2026-03-31",
+    "title": "季度预算执行报表",
+    "confidence": 0,
+    "evidence": {
+      "department": "财务部",
+      "type": "报表",
+      "date": "2026-03-31"
+    },
+    "text": "工作表：模拟预算\n模拟业务数据 仅用于软件功能演示\n季度预算执行报表\n所属部门 | 财务部\n生成日期 | 2026-03-31\n项目 | 预算元 | 执行元\n办公用品 | 12000 | 9600\n培训 | 8000 | 6400\n合计",
+    "extraction": "原生文本",
+    "status": "可归档",
+    "notes": "本地规则识别，未使用模型响应",
+    "destination": "",
+    "model": "local-rules-v1",
+    "request_id": "",
+    "elapsed_s": 1.905,
+    "usage": {}
+  },
+  {
+    "source": "03_设备合同.pdf",
+    "sha256": "41bb01119417818ce2068868ee1c86e91026e1e1f120d37a5e583a1e207807bb",
+    "department": "法务部",
+    "type": "合同",
+    "date": "2026-02-18",
+    "title": "办公设备采购合同",
+    "confidence": 0,
+    "evidence": {
+      "department": "法务部",
+      "type": "合同",
+      "date": "2026-02-18"
+    },
+    "text": "模拟业务数据 仅用于软件功能演示\n办公设备采购合同\n归档部门：法务部\n签署日期：2026-02-18\n甲方：星禾模拟企业；乙方：明川模拟设备商。\n标的：演示用办公设备。合同金额人民币24000元。\n本文件不构成真实交易，企业名称与业务事项均为虚构。\n",
+    "extraction": "PDF 原生文本",
+    "status": "可归档",
+    "notes": "本地规则识别，未使用模型响应",
+    "destination": "",
+    "model": "local-rules-v1",
+    "request_id": "",
+    "elapsed_s": 0.53,
+    "usage": {}
+  },
+  {
+    "source": "04_扫描会议纪要.png",
+    "sha256": "dd4c4b4b9d12b8c5f09794ec5396a1bb919890b62a3514c9df307481e14c6c24",
+    "department": "研发部",
+    "type": "会议纪要",
+    "date": "2026-03-12",
+    "title": "研发部项目推进会议纪要",
+    "confidence": 0,
+    "evidence": {
+      "department": "研发部",
+      "type": "会议纪要",
+      "date": "2026-03-12"
+    },
+    "text": "模拟业务数据仅用于软件功能演示\n研发部项目推进会议纪要\n所属部门：研发部\n会议纪要生成日期：2026-03-12\n会议结论：先完成设备数据接入，再核对异常指标。\n参会人：虚构人员甲、虚构人员乙。",
+    "extraction": "本地 OCR",
+    "status": "可归档",
+    "notes": "本地规则识别，未使用模型响应",
+    "destination": "",
+    "model": "local-rules-v1",
+    "request_id": "",
+    "elapsed_s": 16.376,
+    "usage": {}
+  },
+  {
+    "source": "05_企业自定义模板.docx",
+    "sha256": "c3d84114b55dca3cf7565899210d7d169e7f65e1e74b6abb9d42f51aacd6d845",
+    "department": "生产部",
+    "type": "报告",
+    "date": "2026-04-08",
+    "title": "安全检查报告",
+    "confidence": 0,
+    "evidence": {
+      "department": "生产部",
+      "type": "报告",
+      "date": "2026-04-08"
+    },
+    "text": "安全检查报告\n模拟业务数据 仅用于软件功能演示\n模拟企业自定义 OA 模板\n归口单位：生产部\n制发日期：2026-04-08\n材料类别：报告\n检查事项：消防通道、设备点检、劳保用品。\n检查结果：模拟检查表记录两项整改事项，已由模拟责任人复核。\n",
+    "extraction": "原生文本",
+    "status": "可归档",
+    "notes": "本地规则识别，未使用模型响应",
+    "destination": "",
+    "model": "local-rules-v1",
+    "request_id": "",
+    "elapsed_s": 0.05,
+    "usage": {}
+  },
+  {
+    "source": "06_日期缺失.txt",
+    "sha256": "5a874c2dee2860847cd5c6c2539636cfb04c0102191c674c7f5dda5ed0b5656c",
+    "department": "销售部",
+    "type": "报告",
+    "date": "",
+    "title": "销售部工作总结报告",
+    "confidence": 0,
+    "evidence": {
+      "department": "销售部",
+      "type": "报告"
+    },
+    "text": "模拟业务数据 仅用于软件功能演示\n销售部工作总结报告\n所属部门：销售部\n文件类型：报告\n完成渠道资料整理及模拟业务复盘。本文没有生成日期，归档前应由资料负责人核对。\n",
+    "extraction": "原生文本",
+    "status": "待复核",
+    "notes": "本地规则识别，未使用模型响应；生成日期缺失或冲突，请人工确认",
+    "destination": "",
+    "model": "local-rules-v1",
+    "request_id": "",
+    "elapsed_s": 0.022,
+    "usage": {}
+  }
+]

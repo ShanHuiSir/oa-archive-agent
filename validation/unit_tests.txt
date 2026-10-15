@@ -1,0 +1,25 @@
+test_collision_preserves_both (test_core.ArchiveTests.test_collision_preserves_both) ... ok
+test_corrupt_file_reports_failure (test_core.ArchiveTests.test_corrupt_file_reports_failure) ... ok
+test_discover_excludes_archive_and_unsupported (test_core.ArchiveTests.test_discover_excludes_archive_and_unsupported) ... ok
+test_formula_injection (test_core.ArchiveTests.test_formula_injection) ... ok
+test_invalid_template (test_core.ArchiveTests.test_invalid_template) ... ok
+test_local_configurable_aliases (test_core.ArchiveTests.test_local_configurable_aliases) ... ok
+test_local_conflicting_dates_review (test_core.ArchiveTests.test_local_conflicting_dates_review) ... ok
+test_local_custom_template (test_core.ArchiveTests.test_local_custom_template) ... ok
+test_local_filename_type_over_body_reference (test_core.ArchiveTests.test_local_filename_type_over_body_reference) ... ok
+test_local_missing_date_is_empty (test_core.ArchiveTests.test_local_missing_date_is_empty) ... ok
+test_lossless_duplicate_search_export (test_core.ArchiveTests.test_lossless_duplicate_search_export) ... ok
+test_missing_date_requires_review (test_core.ArchiveTests.test_missing_date_requires_review) ... ok
+test_no_key_gives_failure (test_core.ArchiveTests.test_no_key_gives_failure) ... ok
+test_review_required (test_core.ArchiveTests.test_review_required) ... ok
+test_source_mutation_blocked (test_core.ArchiveTests.test_source_mutation_blocked) ... ok
+test_traversal_cannot_escape (test_core.ArchiveTests.test_traversal_cannot_escape) ... ok
+test_invalid_review_does_not_mutate_result (test_server.LocalServerTests.test_invalid_review_does_not_mutate_result) ... ok
+test_missing_capability_is_rejected (test_server.LocalServerTests.test_missing_capability_is_rejected) ... ok
+test_no_key_is_returned_in_config (test_server.LocalServerTests.test_no_key_is_returned_in_config) ... ok
+test_untrusted_hostname_rejected (test_server.LocalServerTests.test_untrusted_hostname_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 4.002s
+
+OK

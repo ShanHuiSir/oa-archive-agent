@@ -1,0 +1,110 @@
+{
+  "version": "1.0.0",
+  "time": "2026-10-15T11:20:00.216375+08:00",
+  "input_count": 10,
+  "total_seconds": 7.706,
+  "mode": "local",
+  "model_requested": "local-rules-v1",
+  "cases": [
+    {
+      "case": 1,
+      "format": ".xlsx",
+      "extraction": "原生文本",
+      "status": "已归档",
+      "model": "local-rules-v1",
+      "request_id": "",
+      "elapsed_s": 1.724,
+      "notes": "本地规则识别，未使用模型响应"
+    },
+    {
+      "case": 2,
+      "format": ".docx",
+      "extraction": "原生文本",
+      "status": "已归档",
+      "model": "local-rules-v1",
+      "request_id": "",
+      "elapsed_s": 0.515,
+      "notes": "本地规则识别，未使用模型响应"
+    },
+    {
+      "case": 3,
+      "format": ".pdf",
+      "extraction": "PDF 原生文本",
+      "status": "已归档",
+      "model": "local-rules-v1",
+      "request_id": "",
+      "elapsed_s": 0.549,
+      "notes": "本地规则识别，未使用模型响应"
+    },
+    {
+      "case": 4,
+      "format": ".pdf",
+      "extraction": "PDF 原生文本",
+      "status": "已归档",
+      "model": "local-rules-v1",
+      "request_id": "",
+      "elapsed_s": 0.03,
+      "notes": "本地规则识别，未使用模型响应"
+    },
+    {
+      "case": 5,
+      "format": ".docx",
+      "extraction": "原生文本",
+      "status": "已归档",
+      "model": "local-rules-v1",
+      "request_id": "",
+      "elapsed_s": 0.029,
+      "notes": "本地规则识别，未使用模型响应"
+    },
+    {
+      "case": 6,
+      "format": ".docx",
+      "extraction": "原生文本",
+      "status": "已归档",
+      "model": "local-rules-v1",
+      "request_id": "",
+      "elapsed_s": 0.027,
+      "notes": "本地规则识别，未使用模型响应"
+    },
+    {
+      "case": 7,
+      "format": ".pdf",
+      "extraction": "PDF 原生文本",
+      "status": "已归档",
+      "model": "local-rules-v1",
+      "request_id": "",
+      "elapsed_s": 0.01,
+      "notes": "本地规则识别，未使用模型响应"
+    },
+    {
+      "case": 8,
+      "format": ".docx",
+      "extraction": "原生文本",
+      "status": "已归档",
+      "model": "local-rules-v1",
+      "request_id": "",
+      "elapsed_s": 0.039,
+      "notes": "本地规则识别，未使用模型响应"
+    },
+    {
+      "case": 9,
+      "format": ".docx",
+      "extraction": "原生文本",
+      "status": "已归档",
+      "model": "local-rules-v1",
+      "request_id": "",
+      "elapsed_s": 0.029,
+      "notes": "本地规则识别，未使用模型响应"
+    },
+    {
+      "case": 10,
+      "format": ".pdf",
+      "extraction": "PDF 文本及 OCR",
+      "status": "已归档",
+      "model": "local-rules-v1",
+      "request_id": "",
+      "elapsed_s": 6.435,
+      "notes": "本地规则识别，未使用模型响应"
+    }
+  ]
+}

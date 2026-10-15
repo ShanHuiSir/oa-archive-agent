@@ -1,0 +1,15 @@
+{
+  "full_decode_passed": true,
+  "subtitle_entries": 21,
+  "mean_volume_db": -19.7,
+  "max_volume_db": -2.8,
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "frames_checked": [
+    25,
+    54,
+    75,
+    85,
+    103,
+    115
+  ]
+}

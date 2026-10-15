@@ -1,0 +1,54 @@
+{
+  "version": "1.0.0",
+  "duration_s": 120.08,
+  "resolution": "1440x1220",
+  "video": "H.264 24fps",
+  "audio": "AAC 160k Chinese zh-CN-XiaoxiaoNeural",
+  "source": "Actual Chromium workbench recording through Playwright; mouse movements, clicks, typing, scrolls and downloads executed against the real application. Cursor overlay follows actual browser mouse events. No mock responses or fabricated result frames.",
+  "synthetic_data": true,
+  "input_count": 6,
+  "archived_count": 6,
+  "human_provided_date": "2026-04-09 for missing-date report",
+  "chapters": [
+    {
+      "chapter": "业务问题",
+      "source_start": 1.461,
+      "source_end": 9.163,
+      "output_start": 0,
+      "output_duration": 17.92,
+      "source_to_output_ratio": 2.32667
+    },
+    {
+      "chapter": "输入资料",
+      "source_start": 9.163,
+      "source_end": 23.289,
+      "output_start": 17.92,
+      "output_duration": 21.04,
+      "source_to_output_ratio": 1.48945
+    },
+    {
+      "chapter": "操作处理",
+      "source_start": 23.289,
+      "source_end": 45.109,
+      "output_start": 38.96,
+      "output_duration": 26.3,
+      "source_to_output_ratio": 1.20532
+    },
+    {
+      "chapter": "查看结果",
+      "source_start": 45.109,
+      "source_end": 72.194,
+      "output_start": 65.26,
+      "output_duration": 28.89,
+      "source_to_output_ratio": 1.06664
+    },
+    {
+      "chapter": "搜索与导出",
+      "source_start": 72.194,
+      "source_end": 97.907,
+      "output_start": 94.15,
+      "output_duration": 25.89,
+      "source_to_output_ratio": 1.00688
+    }
+  ]
+}

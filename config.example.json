@@ -1,0 +1,10 @@
+{
+  "api_key": "",
+  "base_url": "https://api.deepseek.com",
+  "model": "deepseek-v4-flash",
+  "departments": ["行政部", "人力资源部", "财务部", "法务部", "销售部", "生产部", "研发部"],
+  "document_types": ["通知", "合同", "会议纪要", "报表", "报告", "制度", "申请单"],
+  "template_hint": "可填写企业字段含义，例如：归口单位代表所属部门，签发日代表生成日期。",
+  "name_template": "{department}_{type}_{date}_{title}",
+  "min_confidence": 0.8
+}

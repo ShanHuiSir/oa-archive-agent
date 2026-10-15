@@ -1,0 +1,24 @@
+{
+  "time": "2026-10-15T11:20:46.689866+08:00",
+  "endpoint": "https://api.deepseek.com",
+  "model_requested": "deepseek-flash",
+  "credential_present": true,
+  "events": [
+    {
+      "elapsed_s": 12.36,
+      "line": ": keep-alive"
+    },
+    {
+      "elapsed_s": 24.406,
+      "line": ": keep-alive"
+    },
+    {
+      "elapsed_s": 36.406,
+      "line": ": keep-alive"
+    }
+  ],
+  "classification_response_received": false,
+  "http_status": 200,
+  "outcome": "stopped_after_keepalives_without_classification",
+  "elapsed_s": 36.406
+}
